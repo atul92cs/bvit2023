@@ -1,0 +1,2 @@
+Write an api in node js to add ,delete 
+and update student record with mysql 

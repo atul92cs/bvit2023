@@ -1,0 +1,12 @@
+.main-profile{
+    border: 1.5px solid black;
+    padding: 15px;
+}
+#image-section img{
+    border: 0.5px solid black;
+    border-radius: 5.5px;
+    padding:5px;
+}
+#info-section h4{
+    text-decoration: underline;
+}

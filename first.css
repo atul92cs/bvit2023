@@ -1,0 +1,29 @@
+
+.first-body p{
+    background: red;
+    color: white;
+}
+.first-body h1{
+    color: blue;
+}
+.second-body p{
+    background: cyan;
+    color: coral;
+}
+#image-section img{
+    border: 1.5px solid black;
+    margin:45px 25px 45px 25px;
+    
+}
+.table-section {
+    border: 1.5px solid black;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#data-table td{
+    width: 125px;
+    height: 15px;
+    padding:25px 15px 25px 15px;
+    border: 0.5px solid black;
+}

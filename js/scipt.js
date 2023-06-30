@@ -1,0 +1,40 @@
+let j=23;
+j=j+1;
+console.log(typeof(j));
+let name='stuart';
+console.log(name.length);
+let newname=name.substring(0,2);
+console.log(newname);
+console.log(name.toUpperCase());
+console.log(name.toLowerCase());
+newname='Atul Kumar Singh';
+console.log(newname.split(''));
+console.log(newname.split(' '));
+newname='john';
+let secondname='smith';
+newname=`${newname} ${secondname}`;
+console.log(newname);
+let num=[];
+num.push('name');
+num.push(2);
+num[2]='gene';
+num.unshift(1,'hen');
+num.pop();
+console.log(num);
+num.splice(0,1);
+console.log(num);
+let con=num.includes(2)
+console.log(con);
+console.log(num.indexOf(2));
+let car={};
+car.name='sunny';
+car.company='nissan';
+console.log(car);
+car.year=2019;
+console.log(car);
+car.status=false;
+console.log(car);
+
+//let {name,company,year,status}=car;
+//console.log('name',name,'company',company,'year',year,'status',status);
+
