@@ -1,0 +1,15 @@
+<div id="display-section">
+    {{#each genre}}
+        <p>{{this.name}}</p>
+    {{/each}}
+</div>
+<div id="form-section">
+    <form action="/genre/add" method="post">
+        <div class="form-field">
+            <input type="text" name="name" id="">
+        </div>
+        <div class="form-field">
+            <button type="submit">Add</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,15 @@
+<form action="/company/add" method="post">
+    <div class="form-field">
+        <input type="text" name="name" id="">
+    </div>
+    <div class="form-field">
+        <button type="submit">
+            add
+        </button>
+    </div>
+</form>
+<div id="data-section">
+    {{#each companies}}
+    <p>{{this.name}}</p>
+    {{/each}}
+</div>
